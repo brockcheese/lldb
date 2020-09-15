@@ -1,0 +1,31 @@
+settings set target.x86-disassembly-flavor intel
+#It should set the dissamble Intel Syntax#
+
+settings set prompt "(jonsandl) "
+#Changes the prompt#
+
+#We need to find another way, the system doesn't allow us to use crontab#
+
+#Do you like the banner? You can find other ones here: https://asciiart.website/index.php?art=animals/spiders #
+script print "\033[0;35m"
+script print "       jjjj "
+script print "      j::::j"
+script print "       jjjj "
+script print ""
+script print "      jjjjjj     oooo     nnnnnn    nnnn"
+script print "      j::::j    o::::o    n:::::nnnn::::n"
+script print "      j::::j   o::::::o   n::::::::::::::n"
+script print "      j::::j  o:::oo:::o  n:::::nnnnnn::::n"
+script print "      j::::j o:::o  o:::o n::::n      n::::n"
+script print "      j::::jo:::o    o:::on::::n      n::::n"
+script print "      j::::jo:::o    o:::on::::n      n::::n"
+script print "      j::::j o:::o  o:::o n::::n      n::::n"
+script print "      j::::j  o:::oo:::o  n::::n      n::::n"
+script print "      j::::j   o::::::o   n::::n      n::::n"
+script print "      j::::j    o::::o    n::::n      n::::n"
+script print "      j::::j     oooo     nnnnnn      nnnnnn"
+script print "    jj::::j"
+script print " jjj:::::j"
+script print "j:::::::j"
+script print " jjjjjjj"
+script print "\033[0m"
